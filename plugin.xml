@@ -1,6 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin id="com.tangide.viewport" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>ViewPort</name>
+    <description>This plugin enable the meta viewport in html</description>
+
+    <author>Li XianJing</author>
+    <license>MIT</license>
+    <keywords>Meta, Android, ViewPort, DPI, Width</keywords>
+    <repo>https://github.com/drawapp8/ViewPort.git</repo>
+    <issue>https://github.com/drawapp8/ViewPort/issues</issue>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+
     <js-module name="ViewPort" src="www/ViewPort.js">
         <clobbers target="cordova.plugins.ViewPort" />
     </js-module>

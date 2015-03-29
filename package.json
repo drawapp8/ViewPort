@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "name": "com.tangide.viewport",
+    "cordova_name": "ViewPort",
+    "description": "\nEnable <meta name=\"viewport\">\n    ",
+    "license": "MIT",
+    "repo": "https://github.com/drawapp8/ViewPort.git",
+    "issue": "https://github.com/drawapp8/ViewPort/issues",
+    "keywords": [
+        "viewport",
+        " meta",
+        " ViewPort"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0.0"
+        }
+    ]
+}
