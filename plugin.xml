@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.tangide.viewport" version="1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ViewPort</name>
+    <js-module name="ViewPort" src="www/ViewPort.js">
+        <clobbers target="cordova.plugins.ViewPort" />
+    </js-module>
+    
+    <!-- Android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="ViewPort">
+                <param name="android-package" value="com.tangide.viewport.ViewPort" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+        <config-file target="AndroidManifest.xml" parent="/*"></config-file>
+        <source-file src="src/android/ViewPort.java" target-dir="src/com/tangide/viewport/" />
+    </platform>
+</plugin>
